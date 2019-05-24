@@ -1,17 +1,17 @@
 <template>
     <div>
         <h4>It works!</h4>
-        <component></component>
+        <example-component></example-component>
     </div>
 </template>
 
 <script>
-import Component from './components/Component'
+import ExampleComponent from './components/ExampleComponent'
 
 export default {
     name: 'App',
     components: {
-        Component
+        ExampleComponent
     }
 }
 </script>
