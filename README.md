@@ -9,4 +9,4 @@ First run the command: `yarn`<br>
 This will install all the necessary dependencies.
 
 Run the following command: `yarn dev`<br>
-This command spins up a local server. Follow the url given in the terminal, you should now see the website. The package manager used is Parcel, which uses hot reloading. Hot reloading means that any change made to the source code gets immediately reflected on the website. 
+This command builds the application and spins up a local server. Follow the url given in the terminal, you should now see the website. Parcel is used as web application bundler, which uses hot reloading out of the box. Hot reloading means that any change made to the source code are immediately reflected on the website. 
