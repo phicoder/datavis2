@@ -1,0 +1,22 @@
+{
+  "name": "datavis2",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "repository": "git@github.com:phicoder/datavis2.git",
+  "author": "Philippe van Amerongen <philippe.vanamerongen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "components": "^0.1.0",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "parcel-bundler": "^1.12.3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  }
+}
