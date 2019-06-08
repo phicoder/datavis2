@@ -1,13 +1,62 @@
 {
-  "title": "",
-  "credits": {
-    "enabled": false
+  "chart": {
+    "type": "bar",
+    "height": "40%"
+  },
+  "title": {
+    "text": ""
+  },
+  "xAxis": {
+    "visible": false,
+    "categories": [""]
+  },
+  "yAxis": {
+    "min": 0,
+    "max": 100,
+    "visible": false
+  },
+  "tooltip": {
+    "pointFormat": "<span>{series.name}</span>: <b>{point.percentage:.0f}%</b><br/>",
+  },
+  "plotOptions": {
+    "series": {
+      "stacking": "percent"
+    }
   },
   "series": [
     {
+      "name": "Management",
       "data": [
-        1,
-        2,
+        15
+      ]
+    },
+    {
+      "name": "Data Scientist",
+      "data": [
+        35
+      ]
+    },
+    {
+      "name": "Professor",
+      "data": [
+        18
+      ]
+    },
+    {
+      "name": "Web Developer",
+      "data": [
+        4
+      ]
+    },
+    {
+      "name": "Data Visualization specialist",
+      "data": [
+        25
+      ]
+    },
+    {
+      "name": "Sofware Engineer",
+      "data": [
         3
       ]
     }

@@ -1,3 +1,8 @@
+import Highcharts from 'highcharts'
+
+import themeLight from './themes/theme_light.json'
+import themeDark from './themes/theme_dark.json'
+
 import chart0 from './chart0.json'
 import chart1 from './chart1.json'
 import chart2 from './chart2.json'
@@ -10,14 +15,14 @@ import chart8 from './chart8.json'
 import chart9 from './chart9.json'
 
 export default [
-    chart0,
-    chart1,
-    chart2,
-    chart3,
-    chart4,
-    chart5,
-    chart6,
-    chart7,
-    chart8,
-    chart9
+    Highcharts.merge(chart0, themeLight),
+    Highcharts.merge(chart1, themeLight),
+    Highcharts.merge(chart2, themeDark),
+    Highcharts.merge(chart3, themeDark),
+    Highcharts.merge(chart4, themeLight),
+    Highcharts.merge(chart5, themeDark),
+    Highcharts.merge(chart6, themeDark),
+    Highcharts.merge(chart7, themeDark),
+    Highcharts.merge(chart8, themeLight),
+    Highcharts.merge(chart9, themeLight),
 ]

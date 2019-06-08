@@ -1,8 +1,12 @@
 import Vue from 'vue'
 import App from './App'
-import HighchartsVue from 'highcharts-vue'
+import VueHighcharts from 'vue-highcharts';
+import Highcharts from 'highcharts';
+import loadFunnel from 'highcharts/modules/funnel';
 
-Vue.use(HighchartsVue)
+loadFunnel(Highcharts);
+
+Vue.use(VueHighcharts, { Highcharts });
 
 new Vue({
     el: '#app',

@@ -7,21 +7,22 @@
         </section>
 
         <!-- section1 -->
-        <section class="flex flex-wrap mb-2 mt-6">
-            <div class="w-full sm:w-1/2 px-4">
+        <section class="flex flex-wrap mb-2 mt-12">
+            <div class="w-full sm:w-1/2 px-4 flex flex-col">
                 <h2 class="text-center sm:text-left text-xl h-24 ml-12">Most jobs are affected by Data
                     Visualization</h2>
-                <highcharts :options="charts[0]"></highcharts>
+                <div class="flex flex-1 items-center">
+                    <highcharts class="flex-1" :options="charts[0]"></highcharts>
+                </div>
             </div>
             <div class="w-full sm:w-1/2 px-4">
-                <h2 class="text-center sm:text-left text-xl h-24 ml-12"> Data Visualization is a part of the job, most
-                    people were not hired for it</h2>
+                <h2 class="text-center sm:text-left text-xl h-24 ml-12">... and many jobs openings require Data Visualization even though they do not announce it!</h2>
                 <highcharts :options="charts[1]"></highcharts>
             </div>
         </section>
 
         <!-- section2 -->
-        <section class="flex flex-wrap">
+        <section class="flex flex-wrap bg-black">
             <div class="w-full sm:w-1/2 px-4">
                 <h2 class="text-center sm:text-left text-xl h-24 ml-12">Most jobs are affected by Data
                     Visualization</h2>
@@ -42,7 +43,7 @@
 
 
         <!-- section4 -->
-        <section class="flex flex-wrap">
+        <section class="flex flex-wrap bg-black">
             <div class="w-full sm:w-1/3 px-4">
                 <h2 class="text-center sm:text-left text-xl h-24 ml-12">Most jobs are affected by Data
                     Visualization</h2>
@@ -75,8 +76,8 @@
         </section>
 
         <!-- footer -->
-        <section class="bg-black text-white">
-            <h1 class="text-center mx-5 text-4xl"></h1>
+        <section class="bg-black text-white py-24">
+            <h1 class="text-center text-4xl">Prepare for your future now, study Data Visualization!</h1>
         </section>
     </div>
 </template>

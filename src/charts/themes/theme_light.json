@@ -1,0 +1,10 @@
+{
+  "credits": {
+    "enabled": false
+  },
+  "chart": {
+    "style": {
+      "fontFamily": "'Open Sans', sans-serif"
+    }
+  }
+}
