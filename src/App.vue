@@ -21,7 +21,7 @@
         </section>
 
         <!-- section2 -->
-        <section class="bg-black text-white">
+        <section class="flex flex-wrap">
             <div class="w-full sm:w-1/2 px-4">
                 <h2 class="text-center sm:text-left text-xl h-24 ml-12">Most jobs are affected by Data
                     Visualization</h2>
@@ -35,14 +35,14 @@
         </section>
 
         <!-- section3 -->
-        <section class="bg-black text-white">
+        <section>
             <h2 class="text-center sm:text-left text-xl h-24 ml-12">Most jobs are affected by Data Visualization</h2>
             <highcharts :options="charts[4]"></highcharts>
         </section>
 
 
         <!-- section4 -->
-        <section class="bg-black text-white">
+        <section class="flex flex-wrap">
             <div class="w-full sm:w-1/3 px-4">
                 <h2 class="text-center sm:text-left text-xl h-24 ml-12">Most jobs are affected by Data
                     Visualization</h2>
@@ -61,7 +61,7 @@
         </section>
 
         <!-- section5 -->
-        <section class="bg-black text-white">
+        <section class="flex flex-wrap">
             <div class="w-full sm:w-1/2 px-4">
                 <h2 class="text-center sm:text-left text-xl h-24 ml-12">Most jobs are affected by Data
                     Visualization</h2>
