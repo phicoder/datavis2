@@ -1,0 +1,15 @@
+{
+  "chartOptions": {
+    "title": "",
+    "credits": {
+      "enabled": false
+    },
+    "series": [
+      {
+        "data": [
+          1, 2, 3
+        ]
+      }
+    ]
+  }
+}
