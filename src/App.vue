@@ -9,7 +9,7 @@
         <!-- section1 -->
         <section class="flex flex-wrap py-16">
             <div class="w-full sm:w-1/2 px-4 flex flex-col mb-16 sm:mb-0">
-                <h2 class="text-center sm:text-left text-xl mt-4 sm:ml-12">Most jobs are affected by Data
+                <h2 class="text-center sm:text-left text-xl sm:ml-12">Not only Data Science jobs need Data
                     Visualization</h2>
                 <div class="flex flex-1 items-center">
                     <highcharts class="flex-1" :options="charts[0]"></highcharts>

@@ -28,39 +28,51 @@
   },
   "series": [
     {
-      "name": "Management",
-      "data": [
-        15
-      ]
-    },
-    {
       "name": "Data Scientist",
       "data": [
-        35
+        49
       ]
     },
     {
-      "name": "Professor",
+      "name": "Consultant",
       "data": [
         18
       ]
     },
     {
-      "name": "Web Developer",
-      "data": [
-        4
-      ]
-    },
-    {
-      "name": "Data Visualization specialist",
+      "name": "Software Engineer",
       "data": [
         25
       ]
     },
     {
-      "name": "Sofware Engineer",
+      "name": "Data Analyst",
       "data": [
-        3
+        16
+      ]
+    },
+    {
+      "name": "Researcher",
+      "data": [
+        19
+      ]
+    },
+    {
+      "name": "Analyst",
+      "data": [
+        9
+      ]
+    },
+    {
+      "name": "Software Developer",
+      "data": [
+        9
+      ]
+    },
+    {
+      "name": "Professor",
+      "data": [
+        8
       ]
     }
   ]
