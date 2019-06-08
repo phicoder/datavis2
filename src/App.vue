@@ -28,15 +28,14 @@
                 <highcharts :options="charts[2]"></highcharts>
             </div>
             <div class="w-full sm:w-1/2 px-4">
-                <h2 class="text-center sm:text-left text-xl h-24 ml-12"> Data Visualization is a part of the job, most
-                    people were not hired for it</h2>
+                <h2 class="text-center sm:text-left text-xl h-24 ml-12"> ... and lots of hours in their day are dedicated to Data Visualization!</h2>
                 <highcharts :options="charts[3]"></highcharts>
             </div>
         </section>
 
         <!-- section3 -->
         <section class="py-16">
-            <h2 class="text-center sm:text-left text-xl h-24 ml-12">Most jobs are affected by Data Visualization</h2>
+            <h2 class="text-center sm:text-left text-xl h-24 ml-12">And yet, many people would like to invest more time in it</h2>
             <highcharts :options="charts[4]"></highcharts>
         </section>
 
