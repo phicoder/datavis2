@@ -5,15 +5,15 @@
         </section>
         <!-- top section -->
         <section class="flex my-2">
-            <div class="w-1/2 my-auto">
+            <div class="w-full sm:w-1/2 my-auto mx-4">
                 <p>Most jobs are affected by Data Visualization</p>
-                <div>
-                </div>
+                <highcharts :options="chartOptions"></highcharts>
             </div>
-            <div class="w-1/2 my-auto">
+            <div class="w-full sm:w-1/2 my-auto mx-4">
                 <p> Data Visualization is a part of the job, most people were not hired for it</p>
                 <div>
                     This is a graph
+                    <highcharts :options="chartOptions"></highcharts>
                 </div>
             </div>
         </section>
@@ -34,12 +34,21 @@
 </template>
 
 <script>
-import ExampleComponent from './components/ExampleComponent'
+import {Chart} from 'highcharts-vue'
 
 export default {
     name: 'App',
+    data() {
+        return {
+            chartOptions: {
+                series: [{
+                    data: [1,2,3] // sample data
+                }]
+            }
+        }
+    },
     components: {
-        ExampleComponent
+        highcharts: Chart
     }
 }
 </script>
