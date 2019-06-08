@@ -77,7 +77,7 @@
   "plotOptions": {
     "series": {
       "dataLabels": {
-        "color": "#B0B0B3"
+        "color": "#D0DCEA"
       },
       "marker": {
         "lineColor": "#333"

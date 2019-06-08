@@ -43,18 +43,15 @@
         <!-- section4 -->
         <section class="flex flex-wrap bg-black text-white py-16">
             <div class="w-full sm:w-1/3 px-4">
-                <h2 class="text-center sm:text-left text-xl h-24 ml-12">Most jobs are affected by Data
-                    Visualization</h2>
+                <h2 class="text-center sm:text-left text-xl h-24 ml-12">Data Visualization is highly consumed, ...</h2>
                 <highcharts :options="charts[5]"></highcharts>
             </div>
-            <div class="w-full sm:w-1/3 px-4">
-                <h2 class="text-center sm:text-left text-xl h-24 ml-12">Most jobs are affected by Data
-                    Visualization</h2>
+            <div class="w-full sm:w-1/3 px-6">
+                <h2 class="text-center text-xl h-24">...most teams are mixed, ...</h2>
                 <highcharts :options="charts[6]"></highcharts>
             </div>
-            <div class="w-full sm:w-1/3 px-4">
-                <h2 class="text-center sm:text-left text-xl h-24 ml-12"> Data Visualization is a part of the job, most
-                    people were not hired for it</h2>
+            <div class="w-full sm:w-1/3 pr-2">
+                <h2 class="text-center sm:text-left text-xl h-24 ml-12">and the relationship with the teams is of collaborative nature!</h2>
                 <highcharts :options="charts[7]"></highcharts>
             </div>
         </section>

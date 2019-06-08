@@ -1,14 +1,45 @@
 {
-  "title": "",
-  "credits": {
-    "enabled": false
+  "chart": {
+    "plotBackgroundColor": null,
+    "plotBorderWidth": null,
+    "plotShadow": false,
+    "type": "pie",
+  },
+  "title": {
+    "text": ""
+  },
+  "tooltip": {
+    "pointFormat": "{series.name}: <b>{point.percentage:.1f}%<\/b>"
+  },
+  "plotOptions": {
+    "pie": {
+      "dataLabels": {
+        "format": "<b>{point.name}</b><br>{point.percentage:.1f} %",
+        "enabled": true,
+        "distance": -50,
+      }
+    }
   },
   "series": [
     {
+      "name": "Brands",
+      "colorByPoint": true,
       "data": [
-        1,
-        2,
-        3
+        {
+          "color": "#87b4e7",
+          "name": "Collaborative",
+          "y": 65
+        },
+        {
+          "color": "#434348",
+          "name": "Consultative",
+          "y": 30
+        },
+        {
+          "color": "#626970",
+          "name": "Other",
+          "y": 5
+        }
       ]
     }
   ]
