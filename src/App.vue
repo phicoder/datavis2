@@ -59,13 +59,11 @@
         <!-- section5 -->
         <section class="flex flex-wrap py-16">
             <div class="w-full sm:w-1/2 px-4">
-                <h2 class="text-center sm:text-left text-xl h-24 ml-12">Most jobs are affected by Data
-                    Visualization</h2>
+                <h2 class="text-center sm:text-left text-xl h-24 ml-12">Many professionals come with a high qualified background</h2>
                 <highcharts :options="charts[8]"></highcharts>
             </div>
             <div class="w-full sm:w-1/2 px-4">
-                <h2 class="text-center sm:text-left text-xl h-24 ml-12"> Data Visualization is a part of the job, most
-                    people were not hired for it</h2>
+                <h2 class="text-center sm:text-left text-xl h-24 ml-12">... and yet most of them are self-taught</h2>
                 <highcharts :options="charts[9]"></highcharts>
             </div>
         </section>
