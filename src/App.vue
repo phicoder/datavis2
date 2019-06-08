@@ -1,7 +1,9 @@
 <template>
-    <div>
-        <h4>It works!</h4>
-        <example-component></example-component>
+    <div class="font-sans">
+        <section>
+            Hello
+            <div class="">asdasd</div>
+        </section>
     </div>
 </template>
 
@@ -17,5 +19,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 </style>
