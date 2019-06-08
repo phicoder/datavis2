@@ -8,7 +8,7 @@
 
         <!-- section1 -->
         <section class="flex flex-wrap my-16">
-            <div class="w-full sm:w-1/2 px-4 flex flex-col">
+            <div class="w-full sm:w-1/2 px-4 flex flex-col mb-16 sm:mb-0">
                 <h2 class="text-center sm:text-left text-xl mt-8 ml-12">Most jobs are affected by Data
                     Visualization</h2>
                 <div class="flex flex-1 items-center">

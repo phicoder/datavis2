@@ -1,10 +1,13 @@
 {
   "chart": {
     "type": "bar",
-    "height": "40%"
+    "height": "200px"
   },
   "title": {
     "text": ""
+  },
+  "legend": {
+    "maxHeight": "10%"
   },
   "xAxis": {
     "visible": false,
