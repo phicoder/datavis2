@@ -7,9 +7,9 @@
         </section>
 
         <!-- section1 -->
-        <section class="flex flex-wrap my-16">
+        <section class="flex flex-wrap py-16">
             <div class="w-full sm:w-1/2 px-4 flex flex-col mb-16 sm:mb-0">
-                <h2 class="text-center sm:text-left text-xl mt-8 ml-12">Most jobs are affected by Data
+                <h2 class="text-center sm:text-left text-xl mt-4 sm:ml-12">Most jobs are affected by Data
                     Visualization</h2>
                 <div class="flex flex-1 items-center">
                     <highcharts class="flex-1" :options="charts[0]"></highcharts>
@@ -22,10 +22,9 @@
         </section>
 
         <!-- section2 -->
-        <section class="flex flex-wrap bg-black">
-            <div class="w-full sm:w-1/2 px-4">
-                <h2 class="text-center sm:text-left text-xl h-24 ml-12">Most jobs are affected by Data
-                    Visualization</h2>
+        <section class="flex flex-wrap bg-black text-white py-16">
+            <div class="w-full sm:w-1/2 px-4 mb-12 sm:mb-0">
+                <h2 class="text-center sm:text-left text-xl h-24 ml-12">Many people spend many years working in Data Visualization</h2>
                 <highcharts :options="charts[2]"></highcharts>
             </div>
             <div class="w-full sm:w-1/2 px-4">
@@ -36,14 +35,14 @@
         </section>
 
         <!-- section3 -->
-        <section>
+        <section class="py-16">
             <h2 class="text-center sm:text-left text-xl h-24 ml-12">Most jobs are affected by Data Visualization</h2>
             <highcharts :options="charts[4]"></highcharts>
         </section>
 
 
         <!-- section4 -->
-        <section class="flex flex-wrap bg-black">
+        <section class="flex flex-wrap bg-black text-white py-16">
             <div class="w-full sm:w-1/3 px-4">
                 <h2 class="text-center sm:text-left text-xl h-24 ml-12">Most jobs are affected by Data
                     Visualization</h2>
@@ -62,7 +61,7 @@
         </section>
 
         <!-- section5 -->
-        <section class="flex flex-wrap">
+        <section class="flex flex-wrap py-16">
             <div class="w-full sm:w-1/2 px-4">
                 <h2 class="text-center sm:text-left text-xl h-24 ml-12">Most jobs are affected by Data
                     Visualization</h2>
@@ -76,8 +75,9 @@
         </section>
 
         <!-- footer -->
-        <section class="bg-black text-white py-24">
-            <h1 class="text-center text-4xl">Prepare for your future now, study Data Visualization!</h1>
+        <section class="bg-black text-white pt-24 pb-6 px-12">
+            <h1 class="text-center text-4xl pb-12">Prepare for your future now, study Data Visualization!</h1>
+            <a href="http://www.ub.edu/datascience/master/"><img class="mx-auto mt-5" src="./assets/ub_logo.png" width="150"></a>
         </section>
     </div>
 </template>

@@ -1,14 +1,59 @@
 {
-  "title": "",
-  "credits": {
+  "chart": {
+    "type": "column"
+  },
+  "title": {
+    "text": ""
+  },
+  "xAxis": {
+    "categories": [
+      "1 year",
+      "2 years",
+      "3 years",
+      "4 years",
+      "5 years",
+      "6 years",
+      "7 years",
+      "8 years",
+      "9 years",
+      "10+ years"
+    ]
+  },
+  "yAxis": {
+    "min": 0,
+    "title": {
+      "text": "Percentage of participants (%)"
+    }
+  },
+  "tooltip": {
+    "headerFormat": "<span style=\"font-size:10px\">{point.key}</span><table>",
+    "pointFormat": "<tr><td>{series.name}</td><td style=\"padding:0\"><b>{point.y:.1f} %</b></td></tr>",
+    "footerFormat": "</table>",
+    "useHTML": true
+  },
+  "legend": {
     "enabled": false
+  },
+  "plotOptions": {
+    "column": {
+      "pointPadding": 0.2,
+      "borderWidth": 0
+    }
   },
   "series": [
     {
+      "name": "",
       "data": [
-        1,
         2,
-        3
+        20,
+        25,
+        12,
+        6,
+        3,
+        3,
+        12,
+        15,
+        20
       ]
     }
   ]
