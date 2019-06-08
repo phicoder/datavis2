@@ -16,7 +16,7 @@
     "visible": false
   },
   "tooltip": {
-    "pointFormat": "<span>{series.name}</span>: <b>{point.percentage:.0f}%</b><br/>",
+    "pointFormat": "<span>{series.name}</span>: <b>{point.percentage:.0f}%</b><br/>"
   },
   "plotOptions": {
     "series": {

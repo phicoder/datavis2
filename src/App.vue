@@ -7,9 +7,9 @@
         </section>
 
         <!-- section1 -->
-        <section class="flex flex-wrap mb-2 mt-12">
+        <section class="flex flex-wrap my-16">
             <div class="w-full sm:w-1/2 px-4 flex flex-col">
-                <h2 class="text-center sm:text-left text-xl h-24 ml-12">Most jobs are affected by Data
+                <h2 class="text-center sm:text-left text-xl mt-8 ml-12">Most jobs are affected by Data
                     Visualization</h2>
                 <div class="flex flex-1 items-center">
                     <highcharts class="flex-1" :options="charts[0]"></highcharts>
