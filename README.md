@@ -2,6 +2,15 @@
 ### Goal
 In this project the objective is accentuating the importance of data visualization. This will be done in a story-telling fashion, using the principles of data visualization. The main audiences are students in Data Science or similar degrees as well as decision makers with regards to hiring.
 
+### View the project on the web
+The project is available at https://dvub.herokuapp.com/
+
+### View the project locally
+Run the command `yarn buildlocal`
+
+Now you can view the site by simply opening the `index.html` file in the `dist/` directory.
+
+
 ### Development
 This project makes use of two main technologies; Vue.js and Yarn. In order to get started, yarn is required. Check here how to install yarn: https://yarnpkg.com/en/docs/install.
 
