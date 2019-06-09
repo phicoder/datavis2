@@ -1,22 +1,20 @@
 <template>
     <div class="font-sans">
         <!-- header -->
-        <section id="header" class="-pb-1 h-40 md:h-56 text-2xl md:text-4xl">
-            <h1 class="text-center sm:text-left text-white pt-12 sm:pl-8 mx-4 font-normal">Is Data Visualization worth
-                it?</h1>
+        <section id="header" class="-pb-1 h-40 md:h-56 text-2xl md:text-5xl">
+            <h1 class="text-center sm:text-left text-white pt-12 sm:pl-8 mx-4 font-normal">Is Data Visualization worth it for you?</h1>
         </section>
 
         <!-- section1 -->
         <section class="flex flex-wrap py-16">
             <div class="w-full sm:w-1/2 px-4 flex flex-col mb-16 sm:mb-0">
-                <h2 class="text-center sm:text-left text-xl sm:ml-12">Not only Data Science jobs need Data
-                    Visualization</h2>
+                <h2 class="text-center sm:text-left text-xl sm:ml-12">Data Visualization is important in a wide variety of jobs...</h2>
                 <div class="flex flex-1 items-center">
                     <highcharts class="flex-1" :options="charts[0]"></highcharts>
                 </div>
             </div>
             <div class="w-full sm:w-1/2 px-4">
-                <h2 class="text-center sm:text-left text-xl h-24 ml-12">... and many jobs openings require Data Visualization even though they do not announce it!</h2>
+                <h2 class="text-center sm:text-left text-xl h-24 ml-12">...and many jobs openings require Data Visualization even though they do not announce it!</h2>
                 <highcharts :options="charts[1]"></highcharts>
             </div>
         </section>
@@ -24,18 +22,18 @@
         <!-- section2 -->
         <section class="flex flex-wrap bg-black text-white py-16">
             <div class="w-full sm:w-1/2 px-4 mb-12 sm:mb-0">
-                <h2 class="text-center sm:text-left text-xl h-24 ml-12">Many people spend many years working in Data Visualization</h2>
+                <h2 class="text-center sm:text-left text-xl h-24 ml-12">Many people spend many years working in Data Visualization...</h2>
                 <highcharts :options="charts[2]"></highcharts>
             </div>
             <div class="w-full sm:w-1/2 px-4">
-                <h2 class="text-center sm:text-left text-xl h-24 ml-12"> ... and lots of hours in their day are dedicated to Data Visualization!</h2>
+                <h2 class="text-center sm:text-left text-xl h-24 ml-12"> ...and lots of hours in their day are dedicated to Data Visualization!</h2>
                 <highcharts :options="charts[3]"></highcharts>
             </div>
         </section>
 
         <!-- section3 -->
         <section class="py-16">
-            <h2 class="text-center sm:text-left text-xl h-24 ml-12">And yet, many people would like to invest more time in it</h2>
+            <h2 class="text-center sm:text-left text-xl h-24 ml-12">And yet, many people would like to invest more time in it!</h2>
             <highcharts :options="charts[4]"></highcharts>
         </section>
 
@@ -43,15 +41,15 @@
         <!-- section4 -->
         <section class="flex flex-wrap bg-black text-white py-16">
             <div class="w-full md:w-1/3 px-4 mb-12 md:mb-0">
-                <h2 class="text-center md:text-left text-xl h-24 md:ml-12">Data Visualization is highly consumed, ...</h2>
+                <h2 class="text-center md:text-left text-xl h-24 md:ml-12">Data Visualization is highly consumed...</h2>
                 <highcharts :options="charts[5]"></highcharts>
             </div>
             <div class="w-full md:w-1/3 px-6 mb-12 md:mb-0">
-                <h2 class="text-center text-xl h-24">...most teams have Data Visualization embedded, ...</h2>
+                <h2 class="text-center text-xl h-24">...most teams have Data Visualization embedded...</h2>
                 <highcharts :options="charts[6]"></highcharts>
             </div>
             <div class="w-full md:w-1/3 pr-2">
-                <h2 class="text-center md:text-left text-xl h-24 md:ml-12">and the relationship with the teams is of cooperative nature!</h2>
+                <h2 class="text-center md:text-left text-xl h-24 md:ml-12">...and the relationship with the teams is of cooperative nature!</h2>
                 <highcharts :options="charts[7]"></highcharts>
             </div>
         </section>
@@ -59,11 +57,11 @@
         <!-- section5 -->
         <section class="flex flex-wrap py-16">
             <div class="w-full sm:w-1/2 px-4">
-                <h2 class="text-center sm:text-left text-xl h-24 ml-12">Many professionals come with a high qualified background</h2>
+                <h2 class="text-center sm:text-left text-xl h-24 ml-12">Many professionals come with a high qualified background...</h2>
                 <highcharts :options="charts[8]"></highcharts>
             </div>
             <div class="w-full sm:w-1/2 px-4">
-                <h2 class="text-center sm:text-left text-xl h-24 ml-12">... and yet most of them are self-taught</h2>
+                <h2 class="text-center sm:text-left text-xl h-24 ml-12">...and yet, most of them are self-taught!</h2>
                 <highcharts :options="charts[9]"></highcharts>
             </div>
         </section>

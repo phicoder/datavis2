@@ -31,49 +31,57 @@
       "name": "Data Scientist",
       "data": [
         49
-      ]
+      ],
+      legendIndex: 8
+    },    
+    {
+      "name": "Software Engineer",
+      "data": [
+        25
+      ],
+      legendIndex: 7
+    },    
+    {
+      "name": "Researcher",
+      "data": [
+        19
+      ],
+      legendIndex: 6
     },
     {
       "name": "Consultant",
       "data": [
         18
-      ]
-    },
-    {
-      "name": "Software Engineer",
-      "data": [
-        25
-      ]
+      ],
+      legendIndex: 5
     },
     {
       "name": "Data Analyst",
       "data": [
         16
-      ]
-    },
-    {
-      "name": "Researcher",
-      "data": [
-        19
-      ]
+      ],
+      legendIndex: 4
     },
     {
       "name": "Analyst",
       "data": [
         9
-      ]
+      ],
+      legendIndex: 3
     },
     {
       "name": "Software Developer",
       "data": [
         9
-      ]
+      ],
+      legendIndex: 2
     },
     {
       "name": "Professor",
       "data": [
         8
-      ]
+      ],
+      legendIndex: 1
     }
   ]
 }
