@@ -1,5 +1,3 @@
-import Highcharts from 'highcharts'
-
 export default {
     chart: {
         type: 'bubble',
@@ -32,7 +30,7 @@ export default {
             },
             dataLabels: {
                 enabled: true,
-                format: '{point.name}'
+                format: '{point.name}',
             }
         }
     },
@@ -40,28 +38,43 @@ export default {
     series: [{
         data: [
             {
-                name: "hourly",
+                name: "Hourly",
+                x: 0,
+                y: 50,
+                z: 53
+            },
+            {
+                name: "Daily",
+                x: 10,
+                y: 50,
+                z: 263
+            },
+            {
+                name: "Weekly",
+                x: 20,
+                y: 50,
+                z: 324
+            },
+            {
+                name: "Monthly",
                 x: 0,
                 y: 0,
-                z: 50
+                z: 214
             },
             {
-                name: "daily",
+                name: "Quarterly",
                 x: 10,
                 y: 0,
-                z: 5
+                z: 78
             },
             {
-                name: "weekly",
+                name: "Yearly",
                 x: 20,
                 y: 0,
-                z: 30
-            },
-            {
-                name: "monthly",
-                x: 30,
-                y: 0,
-                z: 15
+                z: 21,
+                dataLabels: {
+                    y: -20
+                }
             }
         ]
     }]

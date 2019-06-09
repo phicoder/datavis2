@@ -27,18 +27,18 @@
       "data": [
         {
           "color": "#87b4e7",
-          "name": "Mixed",
-          "y": 65
+          "name": "Embedded",
+          "y": 523
         },
         {
           "color": "#434348",
-          "name": "Separate",
-          "y": 25
+          "name": "Separate team",
+          "y": 93
         },
         {
           "color": "#626970",
           "name": "Both",
-          "y": 10
+          "y": 164
         }
       ]
     }

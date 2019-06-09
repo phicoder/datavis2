@@ -30,14 +30,16 @@
       "colorByPoint": true,
       "data": [
         {
-          "name": "Self-taught",
-          "y": 74
+          "name": "Mostly Self-Taught",
+          "y": 796
         },
         {
-          "y": 26,
-          "dataLabels": {
-            "enabled": false
-          }
+          "name": "Mostly from School",
+          "y": 17
+        },
+        {
+          "name": "Equal Parts School and Self-Taught",
+          "y": 167
         }
       ]
     }

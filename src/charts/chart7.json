@@ -3,7 +3,7 @@
     "plotBackgroundColor": null,
     "plotBorderWidth": null,
     "plotShadow": false,
-    "type": "pie",
+    "type": "pie"
   },
   "title": {
     "text": ""
@@ -16,7 +16,7 @@
       "dataLabels": {
         "format": "<b>{point.name}</b><br>{point.percentage:.1f} %",
         "enabled": true,
-        "distance": -50,
+        "distance": -50
       }
     }
   },
@@ -26,19 +26,16 @@
       "colorByPoint": true,
       "data": [
         {
-          "color": "#87b4e7",
           "name": "Collaborative",
-          "y": 65
+          "y": 418
         },
         {
-          "color": "#434348",
+          "name": "Subordinate",
+          "y": 108
+        },
+        {
           "name": "Consultative",
-          "y": 30
-        },
-        {
-          "color": "#626970",
-          "name": "Other",
-          "y": 5
+          "y": 434
         }
       ]
     }

@@ -10,6 +10,8 @@
       "PhD",
       "Master",
       "Bachelor",
+      "Technical School",
+      "Other"
     ]
   },
   "yAxis": {
@@ -37,9 +39,11 @@
     {
       "name": "",
       "data": [
-        10,
-        70,
-        20
+        183,
+        410,
+        309,
+        31,
+        22
       ]
     }
   ]

@@ -30,19 +30,29 @@
       "colorByPoint": true,
       "data": [
         {
-          "color": "#434348",
+          "color": "#65656D",
           "name": "Would like to spend less time on it",
-          "y": 25
+          "y": 27
+        },
+        {
+          "color": "#434348",
+          "name": "Would like to spend <i>much</i> less time on it",
+          "y": 27
         },
         {
           "color": "#87b4e7",
           "name": "Wants to spend more time on it",
-          "y": 58
+          "y": 429
         },
         {
           "color": "#6E95C1",
           "name": "Wants to spend <i>much</i> more time on it",
-          "y": 17
+          "y": 278
+        },
+        {
+          "color": "#E2E7FF",
+          "name": "Wants to spend the same amount of time on it",
+          "y": 214
         }
       ]
     }
