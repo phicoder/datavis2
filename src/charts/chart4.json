@@ -8,9 +8,6 @@
   "title": {
     "text": ""
   },
-  "tooltip": {
-    "pointFormat": "{series.name}: <b>{point.percentage:.1f}%<\/b>"
-  },
   "plotOptions": {
     "pie": {
       "allowPointSelect": true,
@@ -26,28 +23,18 @@
   },
   "series": [
     {
-      "name": "Brands",
+      "name": "Participants",
       "colorByPoint": true,
       "data": [
         {
-          "color": "#65656D",
-          "name": "Would like to spend less time on it",
-          "y": 27
-        },
-        {
           "color": "#434348",
-          "name": "Would like to spend <i>much</i> less time on it",
-          "y": 27
+          "name": "Would like to spend less time on it",
+          "y": 29
         },
         {
           "color": "#87b4e7",
           "name": "Wants to spend more time on it",
-          "y": 429
-        },
-        {
-          "color": "#6E95C1",
-          "name": "Wants to spend <i>much</i> more time on it",
-          "y": 278
+          "y": 707
         },
         {
           "color": "#E2E7FF",

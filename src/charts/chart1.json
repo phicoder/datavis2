@@ -8,9 +8,6 @@
   "title": {
     "text": ""
   },
-  "tooltip": {
-    "pointFormat": "{series.name}: <b>{point.percentage:.1f}%<\/b>"
-  },
   "plotOptions": {
     "pie": {
       "allowPointSelect": true,
@@ -26,7 +23,7 @@
   },
   "series": [
     {
-      "name": "Brands",
+      "name": "Participants",
       "colorByPoint": true,
       "data": [
         {

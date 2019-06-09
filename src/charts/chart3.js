@@ -21,7 +21,7 @@ export default {
             "alternateStartingDirection": true,
             "tooltip": {
                 pointFormatter() {
-                    return this.name + " " + (100 * this.value / this.series.tree.childrenTotal).toFixed(0) + " %"
+                    return this.name + " " + (100 * this.value / this.series.tree.childrenTotal).toFixed(0) + "%"
                 }
             },
             plotOptions: {
