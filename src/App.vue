@@ -70,7 +70,7 @@
 
         <!-- footer -->
         <section class="bg-black text-white pt-24 pb-6 px-12">
-            <h1 class="text-center text-4xl pb-12">Prepare for your future now, study Data Visualization!</h1>
+            <h1 class="text-center text-4xl sm:text-5xl pb-12">Prepare for your future now, study Data Visualization!</h1>
             <a href="http://www.ub.edu/datascience/master/"><img class="mx-auto mt-5" src="./assets/ub_logo.png" width="150"></a>
         </section>
     </div>

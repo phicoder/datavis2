@@ -2,9 +2,9 @@ import Vue from 'vue'
 import App from './App'
 import VueHighcharts from 'vue-highcharts';
 import Highcharts from 'highcharts';
-import loadFunnel from 'highcharts/modules/funnel';
+import loadTree from 'highcharts/modules/treemap';
 
-loadFunnel(Highcharts);
+loadTree(Highcharts);
 
 Vue.use(VueHighcharts, { Highcharts });
 

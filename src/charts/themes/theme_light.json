@@ -2,6 +2,16 @@
   "credits": {
     "enabled": false
   },
+  "colors": [
+    "#87b4e7",
+    "#434348",
+    "#C0CFE0",
+    "#161D26",
+    "#576A7F",
+    "#0D2642",
+    "#3090FF",
+    "#0D2642"
+  ],
   "chart": {
     "style": {
       "fontFamily": "'Open Sans', sans-serif"
