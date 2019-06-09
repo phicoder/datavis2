@@ -40,16 +40,16 @@ export default {
     series: [{
         data: [
             {
-                name: "daily",
+                name: "hourly",
                 x: 0,
                 y: 0,
-                z: 5
+                z: 50
             },
             {
-                name: "hourly",
+                name: "daily",
                 x: 10,
                 y: 0,
-                z: 50
+                z: 5
             },
             {
                 name: "weekly",
